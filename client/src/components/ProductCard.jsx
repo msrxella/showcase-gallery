@@ -28,14 +28,17 @@ function ProductCard({ product, showActions, onEdit, onDelete }) {
             Edit
      </button>
     
-    <button onClick={() = onDelete(product._id)}
-className="flex-1 rounded-lg bg-red-500 py-2 text-sm font-medium text-white hover:bg-red-600"
-Delete </button>
-</div>
-)}
-</div>
+    <button 
+        onClick={() => onDelete(product._id)}
+        className="flex-1 rounded-lg bg-red-500 py-2 text-sm font-medium text-white hover:bg-red-600"
+        >
+        Delete 
+        </button>
+    </div>
+    )}
+    </div>
 </article>
-) ;
-export default ProductCard;
-</article>
+);
+}
+
 export default ProductCard;
